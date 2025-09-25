@@ -1,0 +1,118 @@
+h1 {
+    color: rgb(239, 158, 8);
+}
+
+#tieude {
+    color: rgb(216, 164, 59);
+}
+
+.menu-ngang ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: orange;
+    display: flex;
+}
+
+.menu-ngang li {
+    padding: 12px 20px;
+}
+
+.menu-ngang a {
+    text-decoration: none;
+    color: rgb(233, 232, 232);
+}
+
+.menu-ngang a:hover {
+    color: red;
+}
+
+.menu-doc {
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.menu-doc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-doc li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background: #f2f2f2;
+}
+
+.menu-doc li:hover {
+    background: #ddd;
+}
+
+.de {
+    background-color: orange;
+    width: 200px;
+    padding: 20px 2px;
+    color: white;
+}
+
+.cha {
+    margin-bottom: 10px;
+}
+
+.cha label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.cha select {
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.search {
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.search:hover {
+    background-color: #d65a3d;
+}
+
+.menu-da-cap ul {
+    background-color: #f4a261;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    margin: 0;
+}
+
+.menu-da-cap li {
+    padding: 12px 20px;
+}
+
+.menu-da-cap a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-da-cap a:hover {
+    text-decoration: underline;
+}
+
+#ket {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}

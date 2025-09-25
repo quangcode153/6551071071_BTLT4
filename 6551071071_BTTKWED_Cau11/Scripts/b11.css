@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h2 {
+  margin-top: 40px;
+  color: darkblue;
+}
+.menu-ngang ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(orange, #f2f2f2);
+  display:flex;
+
+}
+.menu-ngang li {
+  padding: 12px 20px;
+}
+.menu-ngang a {
+  text-decoration: none;/*bỏ gạch chân*/
+  color: black;
+}
+.menu-ngang a:hover {/*khi con người di chuột vào*/
+  color: red;/*sẽ hiện màu đỏ*/
+}
+
+
+.menu-doc {
+  width: 200px;
+  border: 1px solid #ccc;
+}
+.menu-doc ul {
+  list-style: none;/*bỏ dấu đầu dòng mặc định của danh sách*/
+  margin: 0;/*bỏ khoảng cách ngoài cảu ul*/
+  padding: 0;/*bỏ khoảng cách trong của ul*/
+}
+.menu-doc li {
+  padding: 10px;/*khoảng cách bên trong mỗi mục danh sách*/
+  border-bottom: 1px solid #ddd;/*viền dưới mỏng màu xám nhạt, tạo phân tách giũa các  mục*/
+  background: #f2f2f2;/*nên mục*/
+}
+.menu-doc li:hover {
+  background: #ddd;
+}
+
+/* --- Menu đa cấp --- */
+.menu-da-cap ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: orange;
+  display: flex;
+}
+.menu-da-cap li {
+  position: relative;/*cho phép đặt các phần tử tuyệt đối bên trong li*/
+
+  padding: 12px 20px;/*khoảng cáh 12px/trên dưới,20px phải trái*/
+}
+.menu-da-cap a {
+  text-decoration: none;
+  color: white;
+}
+.menu-da-cap ul ul {
+  display:none;/*ẩn submenu mặc định */
+  position: absolute;
+  top: 100%;/*xuống ngay dưới thẻ li cha*/
+  left: 0;
+  background: #221e1e;/*màu nên tối cho submenu*/
+  min-width: 150px;  /*chiều rộng tối thiểu của menu */
+}
+.menu-da-cap ul ul li {
+  padding: 10px;
+}
+.menu-da-cap li:hover > ul {
+  display: block;
+}
+.de{
+  background-color: orange;
+}
