@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafad2;
+}
+
+.form-box {
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid orange;
+  background-color: #fffacd;
+}
+
+h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 6px;
+}
+
+input, select, textarea {
+  padding: 4px;
+}
+
+button {
+  background-color: lightblue;
+  border: 1px solid blue;
+  padding: 6px 15px;
+  cursor: pointer;
+}
+
+.success {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}

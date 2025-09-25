@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: red;
+}
+th{
+    background-color: red;
+    color: white;
+}
+table{
+    margin: auto;
+    text-align: center;
+}
+#h{
+    color: red;
+}

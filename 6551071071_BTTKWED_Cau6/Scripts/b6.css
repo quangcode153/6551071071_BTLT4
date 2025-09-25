@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Thanh trên cùng */
+.topbar {
+  background: #d90000;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px 6px 0 0;
+}
+
+/* Tiêu đề chính + ảnh */
+.header {
+  background-color: #e60000;
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 6px 6px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+.header img {
+  height: 100px;
+}
+
+
+.content {
+  border: 2px solid #e60000;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+.columns {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+.col {
+  flex: 1;
+}
+
+ul, ol {
+  margin: 6px 0 12px 18px;
+}

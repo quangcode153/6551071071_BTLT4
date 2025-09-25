@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bài 9</title>
+  <link rel="stylesheet" href="b9.css">
+</head>
+<body>
+  <div class="form-box">
+    <h2>Đăng ký du lịch</h2>
+    <form>
+      <table>
+        <tr>
+          <td>Họ và tên</td>
+          <td><input type="text" value="Phạm Ngọc Cẩm Đào"></td>
+        </tr>
+        <tr>
+          <td>Địa chỉ</td>
+          <td><input type="text" value="227 Nguyễn Văn Cừ"></td>
+        </tr>
+        <tr>
+          <td>Điện thoại</td>
+          <td><input type="text" value="8351056"></td>
+        </tr>
+        <tr>
+          <td>Khách Việt Nam</td>
+          <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+          <td>Chọn tour</td>
+          <td>
+            <select>
+              <option>Buôn mê thuột - Gia lai - Kontum</option>
+              <option>Đà Lạt - Nha Trang</option>
+              <option>Huế - Đà Nẵng - Hội An</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Phương tiện</td>
+          <td>
+            <input type="radio" name="pt" checked> Máy bay
+            <input type="radio" name="pt"> Xe ô tô
+          </td>
+        </tr>
+        <tr>
+          <td>Số lượng đoàn khách</td>
+          <td>
+            Người lớn <input type="text" value="6" size="3">
+            Trẻ em <input type="text" value="4" size="3">
+          </td>
+        </tr>
+        <tr>
+          <td>Ghi chú thêm</td>
+          <td>
+            <textarea rows="3" cols="30">Có 2 trẻ em dưới 6 tuổi
+Có 2 người ăn chay</textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center; padding-top:10px;">
+            <button type="submit">Đồng ý</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <p class="success">Bạn đã đăng ký thành công!!!</p>
+  </div>
+</body>
+</html>
